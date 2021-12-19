@@ -9,6 +9,6 @@ RUN pip install -i https://pypi.tuna.tsinghua.edu.cn/simple -U pip setuptools vi
  && pip install en_core_web_sm-2.1.0.tar.gz \
  && cp -r nltk_data /usr/local/nltk_data
 
-EXPOSE 8501
+EXPOSE 10001
 
-CMD ["streamlit", "run", "cv_parser.py", "--browser.serverAddress=0.0.0.0", "--server.maxUploadSize=100"]
+CMD ["python", "run", "parser.py"]
