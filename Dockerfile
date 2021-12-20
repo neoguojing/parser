@@ -11,4 +11,4 @@ RUN pip install -i https://pypi.tuna.tsinghua.edu.cn/simple -U pip setuptools vi
 
 EXPOSE 10001
 
-CMD ["python", "run", "parser.py"]
+CMD ["python", "parser.py"]

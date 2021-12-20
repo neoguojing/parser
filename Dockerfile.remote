@@ -12,4 +12,4 @@ RUN pip install -U pip setuptools virtualenv --force-reinstall  \
 
 EXPOSE 10001
 
-CMD ["python", "run", "parser.py"]
+CMD ["python", "parser.py"]
